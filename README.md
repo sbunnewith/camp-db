@@ -32,7 +32,7 @@ This section tells you about getting started in working in this project.
     ```
 1. Setup a virtual environment
     ``` sh
-    python -m venv venv
+    python3 -m venv venv
     ```
 1. Activate the virtual environment
     ``` sh
@@ -42,5 +42,36 @@ This section tells you about getting started in working in this project.
 
 
 ## Usage
+
+## Design
+
+### Objects
+
+* Campsites
+    * Location
+    * Fee
+    * Pictures
+    * Name
+    * ID
+    * Date Entered
+    * Last Updated
+    * Description
+    * Amenities
+* Users
+    * Name
+    * ID
+    * Picture
+    * Email
+    * Location
+
+### Services
+
+* Search
+    * By Location
+        * Radius
+    * By User ID
+    * By Campsite Name
+    * By Fee
+    * By Amenities
 
 ## License
