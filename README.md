@@ -47,7 +47,7 @@ This section tells you about getting started in working in this project.
 
 ### Objects
 
-* Campsites
+* Campsite
     * Location
     * Fee
     * Pictures
